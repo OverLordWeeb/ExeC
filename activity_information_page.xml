@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Information_page">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="423dp"
+        android:layout_height="902dp"
+        android:background="#16CAB9"
+        android:contentDescription="main back ground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,ImageContrastCheck"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="58dp"
+        android:background="#7C39F4"
+        android:contentDescription="bottom of the phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText,ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="432dp"
+        android:layout_height="85dp"
+        android:background="#7C39F4"
+        android:contentDescription="top of the phone purple bar"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="409dp"
+        android:layout_height="529dp"
+        android:layout_marginTop="101dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce est eros, ultricies in elit ut, euismod dignissim erat. Aenean porttitor ipsum quam, vel efficitur tellus gravida convallis. Aenean vitae lacus et tortor blandit ornare. Maecenas ligula ipsum, ultricies non turpis eu, luctus tempus est. Ut nec dictum nisl. Cras ultricies nulla eget egestas imperdiet. Donec condimentum, sapien non sollicitudin feugiat, eros orci convallis est, et posuere magna purus vitae nisl. Vestibulum in velit magna. Pellentesque fringilla luctus augue, sit amet feugiat orci molestie sed. Integer vehicula volutpat nulla, sit amet cursus ex porttitor in. Etiam at sagittis ex, sit amet dignissim ex.  Suspendisse sed efficitur ligula, vel pharetra nunc. Curabitur malesuada, magna eu hendrerit accumsan, sem nisi tincidunt nibh, sit amet auctor velit turpis in dui. Fusce quis lobortis quam, tincidunt hendrerit ligula. Suspendisse fringilla commodo lorem ut congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis felis sed quam sollicitudin tincidunt. Etiam et auctor arcu, quis porta orci. Pellentesque eget nisi ex. Nunc venenatis nibh eu eros commodo rutrum. Phasellus eget ornare sapien, et elementum est.  Aenean eleifend suscipit volutpat. Ut arcu sapien, vehicula vitae metus sit amet, ultrices condimentum nisl. Ut fringilla felis pulvinar dolor tincidunt, vitae suscipit tellus gravida. Mauris posuere ante ac vestibulum facilisis. Quisque pulvinar nibh vel ullamcorper eleifend. Phasellus consequat risus at quam pretium, non congue orci egestas. Sed eleifend neque et nibh placerat commodo. Cras lobortis rutrum vulputate. Cras ut semper metus. Proin a sapien sem. Duis semper lorem in tempor pulvinar. Vivamus auctor tempor laoreet. Ut lacus purus, ultricies in urna sed, sodales commodo neque. Mauris sed malesuada purus. Sed eu diam a nunc gravida pharetra. Curabitur et mi ligula.  Phasellus ullamcorper, velit eget varius vehicula, tellus felis vulputate mi, sed blandit ligula sem ut lacus. Etiam sit amet justo vel risus aliquam scelerisque. Donec sed condimentum lacus. Nunc congue mi eu est ultricies, at feugiat quam lacinia. Pellentesque blandit metus consectetur, condimentum purus in, facilisis leo. Nam volutpat pellentesque sem. Pellentesque feugiat ante nec orci molestie, sit amet volutpat turpis tristique. Vestibulum felis urna, luctus vitae quam sed, placerat egestas lacus. Integer finibus placerat convallis. Donec laoreet malesuada libero fermentum porta. Integer nisi sem, posuere quis fermentum in, vulputate eget nisi. Nulla id est ut erat hendrerit rutrum vestibulum ac dui. Nullam tempor lacinia rutrum. Nam vitae consectetur elit. Quisque ac tellus volutpat, gravida lorem eget, dignissim est. Sed et convallis urna.  Nam sit amet tortor ut quam blandit ultrices. Fusce congue sed ipsum id pretium. Phasellus a neque neque. Sed a lectus ullamcorper nisi pulvinar mollis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean fringilla ante molestie tortor blandit, et finibus erat ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis maximus ultricies purus scelerisque ornare. Donec velit elit, sagittis a ante vel, pharetra interdum justo. Morbi finibus lobortis enim. In accumsan ac lacus et sodales."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
